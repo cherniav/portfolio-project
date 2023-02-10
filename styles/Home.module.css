@@ -45,27 +45,25 @@
   justify-content: center;
   flex-wrap: wrap;
 
-  max-width: 800px;
+  max-width: 1250px;
   margin-top: 3rem;
 }
 
 .card {
+  height: 40vh;
+  width: 40vh;
   margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border: 3px solid #2D2926;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #FCC626;
+  border-color: #FCC626;
 }
 
 .card h3 {
